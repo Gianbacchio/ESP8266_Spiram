@@ -1,22 +1,22 @@
 # Arduino IDE ESP8266 - SPI SRam library for Microchip 23LC1024
 
-This Library allows the interface of a 125kByte SRAM chip
+This Library provides the interface of a 125kByte SRAM chip
 with ESP8266 through SPI connection.
 Microchip 23LC1024 - [download datasheet here](http://ww1.microchip.com/downloads/en/DeviceDoc/20005142C.pdf)
 
-Application written by [Giancarlo Bacchio](giancarlo.bacchio@gmail.com)
+Application written by [Giancarlo Bacchio](bacchio.giancarlo@gmail.com)
 
 
 ## Getting the code
 
-You can install SRam Library for your ESP8266 downloading the code that is hosted at https://github.com/arduino/ESPBee/tree/master/ESP8266_Spiram.
+You can install SRam Library for your ESP8266 downloading the code that is hosted at https://github.com/Gianbacchio/ESP8266_Spiram.
 
-You can check out the latest development version being informed by updateds, selecting "Watch" box in the GitHub repository
+Selecting "Watch" box in the GitHub repository, you will be informed about the latest development updates of this library. 
 
 
 ## Installing the code
 
-The downloaded code in *.zip format can be included as a new library into the IDE selecting the menù:
+The downloaded code in *.zip format can be included as a new library into the IDE, selecting the menù:
 
      Sketch / include Library / Add .Zip library	
 
@@ -43,7 +43,7 @@ Pin on RAM chip | functionality | Pin on ESP8266
 
 ## Examples
 
-- ESP_spiram.ino : a basic example to understand how the library works. you can write and read a Byte in a given location of the SRAM
+- ESP_spiram.ino : a basic example to understand how the library works. You can write and read a Byte in a given location of the SRAM
 
 - ESP_MP3Streaming.ino : an application ready to read Mp3 data stream from an internet radio source and store it into the SRAM, managing the buffer and returning bytes in FIFO mode.
  
