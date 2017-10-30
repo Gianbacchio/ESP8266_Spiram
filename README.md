@@ -1,4 +1,4 @@
-# Arduino IDE ESP8266 - SPI SRam library for Microchip 23LC1024
+# Arduino IDE ESP8266 - SPI-Ram library for Microchip 23LC1024
 
 This Library provides the interface of a 125kByte SRAM chip
 with ESP8266 through SPI connection.
