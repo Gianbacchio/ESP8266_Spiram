@@ -1,8 +1,8 @@
-# Arduino IDE ESP8266 - SPI-Ram library for Microchip 23LC1024
+# Arduino IDE ESP8266 - library for SPI Serial SRam 23A1024/23LC1024 by Microchip Technology Inc.
 
-This Library provides the interface of a 125kByte SRAM chip
+This Library provides the interface for a 1Mbit SRAM chip
 with ESP8266 through SPI connection.
-Microchip 23LC1024 - [download datasheet here](http://ww1.microchip.com/downloads/en/DeviceDoc/20005142C.pdf)
+Microchip 23A1024/23LC1024 - [download datasheet here](http://ww1.microchip.com/downloads/en/DeviceDoc/20005142C.pdf)
 
 Application written by [Giancarlo Bacchio](bacchio.giancarlo@gmail.com)
 
@@ -53,5 +53,3 @@ Pin on RAM chip | functionality | Pin on ESP8266
 You may copy, distribute and modify the software provided that modifications are described and licensed for free under [LGPL-3](http://www.gnu.org/licenses/lgpl-3.0.html). Derivatives works (including modifications or anything statically linked to the library) can only be redistributed under [LGPL-3](http://www.gnu.org/licenses/lgpl-3.0.html), but applications that use the library don't have to be.
 
 
-
-# ESP8266_Spiram

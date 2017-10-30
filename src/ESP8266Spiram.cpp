@@ -89,7 +89,7 @@ void ESP8266Spiram::write(uint32_t addr, uint8_t *buff, int len) {
 
 
 /*************************************************
- * this function Read the configuration regester *
+ * this function Read the configuration register *
  *************************************************/
 
 uint8_t ESP8266Spiram::readReg_(void) {
@@ -101,7 +101,7 @@ uint8_t ESP8266Spiram::readReg_(void) {
 }
 
 /**************************************************
- * this function Write the configuration regester *
+ * this function Write the configuration register *
  **************************************************/
 
 void ESP8266Spiram::writeReg_(uint8_t reg) {
