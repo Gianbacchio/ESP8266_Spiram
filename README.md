@@ -44,8 +44,6 @@ Pin on RAM chip | functionality | Pin on ESP8266
 ## Examples
 
 - ESP_spiram.ino : a basic example to understand how the library works. You can write and read a Byte in a given location of the SRAM
-
-- ESP_MP3Streaming.ino : an application ready to read Mp3 data stream from an internet radio source and store it into the SRAM, managing the buffer and returning bytes in FIFO mode.
  
 
 ## License
