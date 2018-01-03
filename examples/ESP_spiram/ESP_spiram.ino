@@ -10,12 +10,14 @@
 #include <SPI.h>
 #include <ESP8266Spiram.h>
 
+ESP8266Spiram Spiram;
+
+
 void setup() {
   Serial.begin(115200);
   delay(1000);
   Spiram.begin();
 }
-
 
 
 void loop() {
